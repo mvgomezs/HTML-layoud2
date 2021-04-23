@@ -1,0 +1,120 @@
+:root{
+    --header-color: rgb(54, 135, 211);
+    --main-color:  rgb(146, 172, 192);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    width: 100vw;
+    height: 20vh;
+    background-color: var(--header-color)
+}
+.ancho{
+    width: 90%;
+    height: 20vh;
+    background: var(--header-color);
+    margin: auto; 
+}
+ .logo{
+    width: 30%;
+    height: 20vh;
+    background: var(--header-color);
+    position: absolute;
+    display: inline-block;
+} 
+.logo img{
+    width: 20vw;
+    height: 20vh;
+    padding: 0%;
+}
+ nav{
+    width: 50%;
+    height: 20vh;
+    background: var(--header-color);
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    text-align: right;
+    padding-top: 8rem;
+} 
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: rgb(36, 31, 78);
+    font-size: 2.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 3rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    font-family: rale;
+}
+nav ul li a:hover{
+    color:  rgb(181, 180, 185);
+}
+@font-face{
+    font-family: rale;
+    src: url(./fonts/Raleway-Regular.ttf);
+}
+main{
+    width: 100vw;
+    height: 80vh;
+    background: var(--main-color);
+}
+main section.contenedor{
+    
+    width: 30vw;
+    height: 70vh;
+    background: rgb(2, 2, 54);
+}
+.contenedor__gatito #pato
+{
+    background: var(--main-color);
+    font-size: 2rem;
+    width: 27vw;
+    height: 20vh;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    padding: 10px;
+}
+
+.contenedor__gatito #gato
+{
+    background: var(--main-color);
+    font-size: 2rem;
+    width: 27vw;
+    height: 20vh;
+    margin: auto;
+    position: relative;
+    top: 2
+    0px;
+    padding: 10px;
+}
+
+.contenedor__gatito #ganso
+{
+    background: var(--main-color);
+    font-size: 2rem;
+    width: 27vw;
+    height: 20vh;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    padding: 10px;
+}
+
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: var(--header-color); 
+    position: relative;
+}
+
